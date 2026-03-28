@@ -1,6 +1,6 @@
 @file:Suppress("NOTHING_TO_INLINE")
 
-package com.github.hummel.objren
+package io.github.hummel009.winapi.renderer
 
 import kotlinx.cinterop.refTo
 import kotlinx.cinterop.toKString

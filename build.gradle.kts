@@ -5,7 +5,7 @@ plugins {
 	id("org.jetbrains.kotlin.multiplatform") version "latest.release"
 }
 
-group = "com.github.hummel"
+group = "io.github.hummel009"
 version = LocalDate.now().format(DateTimeFormatter.ofPattern("yy.MM.dd"))
 
 java {
@@ -18,7 +18,7 @@ kotlin {
 	mingwX64 {
 		binaries {
 			executable {
-				entryPoint("com.github.hummel.objren.main")
+				entryPoint("io.github.hummel009.winapi.renderer.main")
 				linkerOpts("-lwinmm")
 				baseName = "${project.name}-${project.version}"
 				runTaskProvider?.configure {

@@ -2,3 +2,6 @@
 .idea
 .kotlin
 build
+
+input
+output
