@@ -30,7 +30,7 @@ fun main() {
 		e.printStackTrace()
 	}
 
-	parse("input/model.obj")
+	parse("input/tie.obj")
 
 	memScoped {
 		val className = "Hummel009's Object Renderer"
